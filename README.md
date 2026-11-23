@@ -18,8 +18,8 @@ npm start
 
 ## Build an installer
 
-You can only reliably build for the OS you're building the DMG/EXE for macOS/Windows-specific
-signing tools without extra setup, so the easiest path is:
+You can only reliably build for the OS you are running on — cross-building the `.dmg`/`.exe`
+targets needs macOS/Windows-specific signing tools and extra setup — so the easiest path is:
 
 ### Option A — GitHub Actions (recommended, builds all 3 platforms for you)
 
@@ -70,3 +70,7 @@ Right now the app uses Electron's default icon. To brand it:
    `electron-icon-builder` npm package.
 3. Put them at `build/icon.ico`, `build/icon.icns`, `build/icon.png` and uncomment the `icon` lines
    in `package.json`'s `build` section and in `main.js`.
+
+## License
+
+MIT — see [LICENSE](LICENSE).

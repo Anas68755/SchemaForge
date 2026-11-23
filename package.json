@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "SchemaForge — visual database schema designer",
   "main": "main.js",
-  "author": "You",
+  "author": "Anas68755",
   "license": "MIT",
   "scripts": {
     "start": "electron .",
@@ -17,7 +17,7 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "com.example.schemaforge",
+    "appId": "io.github.anas68755.schemaforge",
     "productName": "SchemaForge",
     "files": [
       "main.js",
